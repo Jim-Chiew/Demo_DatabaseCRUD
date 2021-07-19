@@ -10,13 +10,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ID:"
+        android:text="@string/id"
         android:id="@+id/tvID"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Content: "/>
+        android:text="@string/content"/>
 
     <EditText
         android:id="@+id/etContent"
@@ -27,11 +27,11 @@
         android:id="@+id/btnUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Update"/>
+        android:text="@string/update"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Delete"
+        android:text="@string/delete"
         android:id="@+id/btnDelete"/>
 </LinearLayout>
